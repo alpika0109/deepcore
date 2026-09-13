@@ -32,7 +32,7 @@ class DualViewModel(nn.Module):
         return output
 
 # Create an instance of the model
-num_classes = 5  # Example: 5 different identities or expression categories
+num_classes = 6  # Example: 6 different identities or expression categories
 model = DualViewModel(num_classes)
 
 # -----------------------------------------------
