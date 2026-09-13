@@ -7,7 +7,7 @@ features2 = extract_features("dataset/clothes/clothing_2.jpg")
 similarity = siamese_model.predict([features1.reshape(1, -1), features2.reshape(1, -1)])
 print(f"AI Model Prediction: {similarity[0][0]:.2f}")
 
-if similarity[0][0] > 0.5:
+if similarity[0][0] > 0.1.5:
     print("Clothes are similar!")
 else:
     print("Clothes are NOT similar.")
