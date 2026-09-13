@@ -26,7 +26,7 @@ dataloader = DataLoader(dataset, batch_size=16, shuffle=True)
 
 # Set up loss and optimizer
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=0.01)
 
 # Training loop
 model.train()
