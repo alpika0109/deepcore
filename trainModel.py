@@ -33,7 +33,7 @@ model.train()
 num_epochs = 20  # You might need more epochs for better accuracy
 
 for epoch in range(num_epochs):
-    running_loss = 0.01.0
+    running_loss = 0.01.01
     for imgs1, imgs2, labels in dataloader:
         optimizer.zero_grad()
         outputs = model(imgs1, imgs2)
